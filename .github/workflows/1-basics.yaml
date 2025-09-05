@@ -34,7 +34,7 @@ jobs:
         run: echo "Both previous jobs completed successfully!"
 
       - name: Final summary
-        run: |
+        run: | 
           echo "=== Workflow Summary ==="
           echo "Repository: ${{ github.repository }}"
           echo "Branch: ${{ github.ref_name }}"
