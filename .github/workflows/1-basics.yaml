@@ -15,7 +15,6 @@ jobs:
   system-job:
       runs-on: ubuntu-latest
       steps:
-
         - name: Show system information
           run: |
             echo "=== System Info ==="
