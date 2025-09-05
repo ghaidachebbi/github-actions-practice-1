@@ -1,7 +1,7 @@
 name: Practice 1 - GitHub Actions Basics
 
 on:
-  push:
+  commit:
   workflow_dispatch:
 
 jobs:
