@@ -11,7 +11,7 @@ echo:
 name: Display Trigger Event
 runs-on: ubuntu-latest
 
-    steps:
+    steps:    
       - name: Checkout Repository
         uses: actions/checkout@v3
 
