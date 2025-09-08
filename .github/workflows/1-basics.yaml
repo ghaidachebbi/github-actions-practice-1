@@ -32,6 +32,7 @@ jobs:
   hello-job:
     runs-on: ubuntu-latest
     steps:
+
       - name: Say hello
         run: echo "Hello, GitHub Actions!"
 
@@ -70,7 +71,6 @@ jobs:
     steps:
       - name: Wait message
         run: echo "Both previous jobs completed successfully!"
-
       - name: Final summary
         run: |
           echo "=== Workflow Summary ==="
