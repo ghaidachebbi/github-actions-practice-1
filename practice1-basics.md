@@ -16,8 +16,7 @@ Create a workflow with **3 simple jobs** that demonstrate core concepts:
 3. **List current directory**:
    ```bash
    ls -la
-   ```
-
+   `
 ### Job 2: Check System (`system-job`)
 **Purpose:** Practice multi-line commands and basic system operations
 **Steps:**
@@ -36,11 +35,11 @@ Create a workflow with **3 simple jobs** that demonstrate core concepts:
 
 ### Job 3: Summary Report (`summary-job`)
 **Purpose:** Understand job dependencies with `needs:`
-**Dependencies:** Must wait for both `hello-job` and `system-job` to complete
+**Dependencies:** Must wait for both `hello-job! ` and `system-job` to complete
 **Steps:**
 1. **Wait message**:
    ```bash
-   echo "Both previous jobs completed successfully!"
+   echo "Both previous jobs completed successfully  !!!!"
    ```
 2. **Final summary** (multi-line command):
    ```bash
