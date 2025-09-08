@@ -1,5 +1,6 @@
-name: GitHub Actions Basics
-on: [push, workflow_dispatch]  # Triggers: push or manual
+name: My First Workflow
+on: [push]
+
 
 jobs:
   hello-job:
