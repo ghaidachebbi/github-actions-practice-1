@@ -3,6 +3,7 @@ on: [push]
 
 
 jobs:
+
   hello-job:
     runs-on: ubuntu-latest
     steps:
@@ -29,10 +30,15 @@ jobs:
           echo "Current User: $(whoami)"
           echo "Working Directory: $(pwd)"
 
-      - name: Create test file
+
+
+      - name: Create and display a file
+
         run: |
           echo "This is a test file" > test.txt
           cat test.txt
+
+  # Job 3: Summary Report
 
   summary-job:
     needs: [hello-job, system-job]  # Waits for both jobs
