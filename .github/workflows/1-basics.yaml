@@ -5,6 +5,9 @@ jobs:
   hello-job:
     runs-on: ubuntu-latest
     steps:
+      - name: Show current date
+        run: date
+        
       - name: Say hello
         run: echo "Hello, GitHub Actions!"
 
@@ -17,6 +20,7 @@ jobs:
   system-job:
     runs-on: ubuntu-latest
     steps:
+
       - name: Show system info
         run: |
           echo "=== System Info ==="
